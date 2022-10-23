@@ -18,7 +18,6 @@ class AlertNumbersState extends StatefulWidget {
 }
 
 class AlertNumbers extends State<AlertNumbersState> {
-  // ignore: avoid_init_to_null
   static int? number = null;
   late int numberSelected;
   static final List<int> numberList1 = [1, 2, 3];
